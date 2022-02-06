@@ -73,3 +73,6 @@ C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views
 C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Producers\Index.cshtml.g.cs
 C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Cinemas\Index.cshtml.g.cs
 C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Movie\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Details.cshtml.g.cs
+C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Edit.cshtml.g.cs
