@@ -1,4 +1,5 @@
 ﻿using eTickets.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace eTickets.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions options) : base(options)
         {
@@ -31,6 +32,8 @@ namespace eTickets.Data
                 .HasOne(m => m.Actor)
                 .WithMany(am => am.Actor_Movies)
                 .HasForeignKey(m => m.ActorId);
+
+            base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<Actor> Actors { get; set; }
