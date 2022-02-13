@@ -100,3 +100,8 @@ C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\bin\Debug\net5.0\Microsoft.A
 C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Account\RegisterCompleted.cshtml.g.cs
+C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Shared\_Identity.cshtml.g.cs
+C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Account\Users.cshtml.g.cs
+C:\Users\hp\Desktop\ECommerce_MVC\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs

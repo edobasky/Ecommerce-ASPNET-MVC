@@ -21,10 +21,12 @@
                     <ul class="navbar-nav flex-grow-1">
                     
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Movie"><i class="badge-info bi-film">Movies</i></a>
+                            <a class="nav-link text-dark" asp-controller="Movie" asp-action="Index"><i class="badge-info bi-film">Movies</i></a>
                         </li>
 
-                        <li class="nav-item dropdown">
+                       @if(User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                             <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="bi bi-gear"></i>Management
                             </a>
@@ -41,7 +43,8 @@
                                 </a>
                             </div>
 
-                        </li>
+                               </li>
+                        }
 
                     </ul>
 
@@ -56,23 +59,8 @@
                     </ul>
 
 
-                    <a class="btn btn-outline-success my-2 my-sm-0" asp-controller="Account" asp-action="Login">
-                        <i class="bi bi-box-arrow-in-right"></i> Log in
-                    </a>
+                   <partial name="_Identity.cshtml" />
 
-                    @*User profile section*@
-                    <div class="dropdown">
-                        <button class="btn btn-outline-success dropdown-toggle" type="button" id="profile-btn" data-toggle="dropdown" aria-expanded="false">
-                            <i class="bi bi-person-badge"></i>Hello User
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="profile-btn">
-                            <li>
-                                <a class="dropdown-item" asp-controller="Orders" asp-action="Index">
-                                    <i class="bi bi-list"></i> Orders
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </nav>
